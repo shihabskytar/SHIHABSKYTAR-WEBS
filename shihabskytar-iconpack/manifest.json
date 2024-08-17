@@ -1,41 +1,122 @@
 {
- "name": "App",
- "icons": [
-  {
-   "src": "\/android-icon-36x36.png",
-   "sizes": "36x36",
-   "type": "image\/png",
-   "density": "0.75"
-  },
-  {
-   "src": "\/android-icon-48x48.png",
-   "sizes": "48x48",
-   "type": "image\/png",
-   "density": "1.0"
-  },
-  {
-   "src": "\/android-icon-72x72.png",
-   "sizes": "72x72",
-   "type": "image\/png",
-   "density": "1.5"
-  },
-  {
-   "src": "\/android-icon-96x96.png",
-   "sizes": "96x96",
-   "type": "image\/png",
-   "density": "2.0"
-  },
-  {
-   "src": "\/android-icon-144x144.png",
-   "sizes": "144x144",
-   "type": "image\/png",
-   "density": "3.0"
-  },
-  {
-   "src": "\/android-icon-192x192.png",
-   "sizes": "192x192",
-   "type": "image\/png",
-   "density": "4.0"
+  "name": "Class With Mason",
+  "short_name": "Class w Mason",
+  "description": "Install Now and Fuel the Creativity",
+  "lang": "en-US",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "start_url": "https://www.classwithmason.com",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Mushahid7734/icon-cwm@main/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Mushahid7734/icon-cwm@main/apple-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Mushahid7734/icon-cwm@main/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Mushahid7734/icon-cwm@main/apple-icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Mushahid7734/icon-cwm@main/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Mushahid7734/icon-cwm@main/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Mushahid7734/icon-cwm@main/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Mushahid7734/icon-cwm/an-android-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+   {
+      "src": "https://cdn.statically.io/gh/shihabskytar/SHIHABSKYTAR-WEBS/da29354920553575865f0f02f2b8be862019203a/APP%20UI/App%20Snapshot%20(1).jpg",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+     {
+      "src": "https://cdn.statically.io/gh/shihabskytar/SHIHABSKYTAR-WEBS/da29354920553575865f0f02f2b8be862019203a/APP%20UI/App%20Snapshot%20(2).jpg",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+     {
+      "src": "https://cdn.statically.io/gh/shihabskytar/SHIHABSKYTAR-WEBS/da29354920553575865f0f02f2b8be862019203a/APP%20UI/App%20Snapshot%20(3).jpg",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.statically.io/gh/shihabskytar/SHIHABSKYTAR-WEBS/da29354920553575865f0f02f2b8be862019203a/APP%20UI/App%20Snapshot%20(4).jpg",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+       {
+      "src": "https://cdn.statically.io/gh/shihabskytar/SHIHABSKYTAR-WEBS/da29354920553575865f0f02f2b8be862019203a/APP%20UI/App%20Snapshot%20(5).jpg",
+      "sizes": "1280x800",
+      "type": "image/png"
+    }
+  ],
+
+   "shortcuts": [
+    {
+      "name": "Top Stories",
+      "url": "/p/web-stories.html?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "https://cdn.jsdelivr.net/gh/shihabskytar/icon-studenthours@2ef1f15ab9b7724aef0ee5957e0871dda0e1821f/64895236216366468655377-128.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "url": "/p/about-us.html?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "https://cdn.jsdelivr.net/gh/shihabskytar/icon-studenthours@2aa0d837e6b4d3bc0782e866b5b7933307103fae/186314676616366468805377-128.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "url": "/p/contact.html?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "https://cdn.jsdelivr.net/gh/shihabskytar/icon-studenthours@2ef1f15ab9b7724aef0ee5957e0871dda0e1821f/64895236216366468655377-128.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+ 
+  "serviceworker": {
+    "src": "https://classwithmason.com/sw.js"
   }
- ]
 }
